@@ -44,8 +44,8 @@ module.exports = {
       (pad "" np_thru_hole circle (at 0 0) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask))
 
       ${''/* stabilizers */}
-      (pad "" np_thru_hole circle (at 5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
-      (pad "" np_thru_hole circle (at -5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
+      (pad "" np_thru_hole circle (at 5.08 0) (size 1.6 1.6) (drill 1.6) (layers *.Cu *.Mask))
+      (pad "" np_thru_hole circle (at -5.08 0) (size 1.6 1.6) (drill 1.6) (layers *.Cu *.Mask))
       `
     const keycap = `
       ${'' /* keycap marks */}
